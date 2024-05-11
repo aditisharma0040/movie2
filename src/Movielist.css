@@ -1,0 +1,43 @@
+.Moviecont{
+  display: flex;
+  flex-direction:column;
+  padding: 10px;
+  width:300px;
+  box-shadow:0px 1px 7px 1px rgb(229 2 2);
+  cursor: pointer; 
+  color: whitesmoke;
+  margin-top: 20px;
+  transition: transform 320ms ease-in-out;
+  
+}
+.Moviecont:hover{
+  transform: scale(1.04);
+}
+.Coverimg{
+  height: 320px;
+
+}
+.Moviename{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-top: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between; 
+
+}
+.movieinfo{
+  font-size: 15px;
+  color: bisque;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  padding-top: 5px;
+
+}
